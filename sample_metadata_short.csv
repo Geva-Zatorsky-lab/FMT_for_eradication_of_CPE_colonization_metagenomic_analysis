@@ -1,0 +1,34 @@
+#NAME,Case.study,Timepoint,Sex,Age,Bacteria,Outcome,Antibiotic_treatment_1_month,Complete FMT,group,group_ABX,Case.number,ordering,sample number
+case1_after,Case 1,Post-FMT,M,27.1,Klebsiella pneumoniae,Non-responders,Yes,YES,"Non-responders, post-FMT","Non-responders, Yes, post-FMT",1,D,7
+case1_before,Case 1,Pre-FMT,M,27.1,Klebsiella pneumoniae,Non-responders,Yes,YES,"Non-responders, pre-FMT","Non-responders, Yes, pre-FMT",1,E,8
+case2_after,Case 2 ,Post-FMT,F,60.1,Klebsiella pneumoniae,Non-responders,Yes,NO,"Non-responders, post-FMT","Non-responders, Yes, post-FMT",2,D,9
+case2_before,Case 2 ,Pre-FMT,F,60.1,Klebsiella pneumoniae,Non-responders,Yes,NO,"Non-responders, pre-FMT","Non-responders, Yes, pre-FMT",2,E,10
+case3_after,Case 3 ,Post-FMT,M,48.3,Klebsiella pneumoniae,Responders,No,YES,"Responders, post-FMT","Responders, No, post-FMT",3,B,11
+case3_before,Case 3 ,Pre-FMT,M,48.3,Klebsiella pneumoniae,Responders,No,YES,"Responders, pre-FMT","Responders, No, pre-FMT",3,C,12
+case4_after,Case 4 ,Post-FMT,M,50.9,Escherichia coli,Responders,No,YES,"Responders, post-FMT","Responders, No, post-FMT",4,B,13
+case4_before,Case 4 ,Pre-FMT,M,50.9,Escherichia coli,Responders,No,YES,"Responders, pre-FMT","Responders, No, pre-FMT",4,C,14
+case5_after,Case 5 ,Post-FMT,F,65,Klebsiella pneumoniae,Non-responders,Yes,NO,"Non-responders, post-FMT","Non-responders, Yes, post-FMT",5,D,15
+case5_before,Case 5 ,Pre-FMT,F,65,Klebsiella pneumoniae,Non-responders,Yes,NO,"Non-responders, pre-FMT","Non-responders, Yes, pre-FMT",5,E,16
+case6_after,Case 6 ,Post-FMT,M,70.3,Enterobacter cloacae & citrobacter freundii*,Non-responders,No,YES,"Non-responders, post-FMT","Non-responders, No, post-FMT",6,D,17
+case6_before,Case 6 ,Pre-FMT,M,70.3,Enterobacter cloacae & citrobacter freundii*,Non-responders,No,YES,"Non-responders, pre-FMT","Non-responders, No, pre-FMT",6,E,18
+case7_after,Case 7 ,Post-FMT,M,75.5,Klebsiella pneumoniae,Responders,No,YES,"Responders, post-FMT","Responders, No, post-FMT",7,B,19
+case7_before,Case 7 ,Pre-FMT,M,75.5,Klebsiella pneumoniae,Responders,No,YES,"Responders, pre-FMT","Responders, No, pre-FMT",7,C,20
+case8_after,Case 8 ,Post-FMT,M,49.4,Enterobacter hormechai,Responders,Yes,YES,"Responders, post-FMT","Responders, Yes, post-FMT",8,B,21
+case8_before,Case 8 ,Pre-FMT,M,49.4,Enterobacter hormechai,Responders,Yes,YES,"Responders, pre-FMT","Responders, Yes, pre-FMT",8,C,22
+case9_after,Case 9 ,Post-FMT,F,60.6,Enterobacter cloacae,Responders,No,YES,"Responders, post-FMT","Responders, No, post-FMT",9,B,23
+case11_after,Case 11 ,Post-FMT,M,68.8,Klebsiella pneumoniae,Responders,No,YES,"Responders, post-FMT","Responders, No, post-FMT",11,B,24
+case11_before,Case 11 ,Pre-FMT,M,68.8,Klebsiella pneumoniae,Responders,No,YES,"Responders, pre-FMT","Responders, No, pre-FMT",11,C,25
+case12_after,Case 12 ,Post-FMT,F,21.8,Klebsiella oxytoca,Responders,No,YES,"Responders, post-FMT","Responders, No, post-FMT",12,B,26
+case12_before,Case 12 ,Pre-FMT,F,21.8,Klebsiella oxytoca,Responders,No,YES,"Responders, pre-FMT","Responders, No, pre-FMT",12,C,27
+case13_after,Case 13 ,Post-FMT,F,81.3,Serratia marcescens ,Non-responders,No,YES,"Non-responders, post-FMT","Non-responders, No, post-FMT",13,D,28
+case13_before,Case 13 ,Pre-FMT,F,81.3,Serratia marcescens ,Non-responders,No,YES,"Non-responders, pre-FMT","Non-responders, No, pre-FMT",13,E,29
+case14_after,Case 14 ,Post-FMT,M,59.2,Serratia marcescens ,Responders,No,YES,"Responders, post-FMT","Responders, No, post-FMT",14,B,30
+case14_before,Case 14 ,Pre-FMT,M,59.2,Serratia marcescens ,Responders,No,YES,"Responders, pre-FMT","Responders, No, pre-FMT",14,C,31
+case15_after,Case 15 ,Post-FMT,M,23.5,Klebsiella pneumoniae,Responders,No,YES,"Responders, post-FMT","Responders, No, post-FMT",15,B,32
+case15_before,Case 15 ,Pre-FMT,M,23.5,Klebsiella pneumoniae,Responders,No,YES,"Responders, pre-FMT","Responders, No, pre-FMT",15,C,33
+donor_1,Donor 1,Donor,Donor,Donor,Donor,Donor,Donor,Donor,Donor,Donor,D1,A,1
+donor_2,Donor 2,Donor,Donor,Donor,Donor,Donor,Donor,Donor,Donor,Donor,D2,A,2
+donor_3,Donor 3,Donor,Donor,Donor,Donor,Donor,Donor,Donor,Donor,Donor,D3,A,3
+donor_4,Donor 4,Donor,Donor,Donor,Donor,Donor,Donor,Donor,Donor,Donor,D4,A,4
+donor_5,Donor 5,Donor,Donor,Donor,Donor,Donor,Donor,Donor,Donor,Donor,D5,A,5
+donor_6,Donor 6,Donor,Donor,Donor,Donor,Donor,Donor,Donor,Donor,Donor,D6,A,6
