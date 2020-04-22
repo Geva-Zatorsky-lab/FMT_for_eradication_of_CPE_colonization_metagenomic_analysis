@@ -4,12 +4,10 @@ metadata <- as(sample_data(psfiltered_norm), "data.frame")
 
 psonly_after_nor_for_DE = subset_samples(psonly_after_norm, (Timepoint == "Post-FMT"))
 
-adonis2(dist ~ Outcome, data = metadata, permutations = 999)
 vect <- metadata$group
 
 bd<-betadisper(dist, vect )
 boxplot(bd)
-
 
 df <- data.frame(Distance_to_centroid=bd$distances,Group=bd$group)
 groups <- bd$group
@@ -38,7 +36,5 @@ ggplot(data=df,aes(x=Group,y=Distance_to_centroid,colour=groups)) +
         theme(strip.background = element_blank(), strip.text.x = element_blank(), legend.position = "none")
 
 
+pairwise.adonis(dist,factors=groups, p.adjust.m='fdr', perm = 100000)
 
-
-
-pairwise.adonis(dist,factors=groups, p.adjust.m='fdr')
