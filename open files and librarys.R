@@ -16,6 +16,7 @@ library(sjPlot)
 library(stringr)
 library(ggrepel)
 library(vegan)
+library(reshape2)
 
 #create a phyloseq object for taxonomy
 otu_table <- read.csv(file = "Counts just bact archea_new cases.csv", row.names = 1)
