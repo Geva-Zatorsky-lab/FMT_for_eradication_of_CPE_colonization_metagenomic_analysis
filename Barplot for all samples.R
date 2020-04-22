@@ -62,7 +62,7 @@ ggplot(df0, aes(x = reorder(Case.number, sort(as.numeric(Case.number))), Abundan
 #saves last figure
 
 save_plot(
-  filename = "Graphs/Barplots responders vs non vs donors order grouped.tif",
+  filename = "Graphs/Barplots all samples family.tif",
   fig = last_plot(),
   width = 20,
   height = 9,
@@ -72,8 +72,8 @@ save_plot(
   label.size = 0.8,
   axis.textsize = 0.8,
   axis.titlesize = 0.8,
-  legend.textsize = 0.8,
-  legend.titlesize = 1,
-  legend.itemsize = 0.4
+  legend.textsize = 0.6,
+  legend.titlesize = 0.65,
+  legend.itemsize = 0.5
 )
 
