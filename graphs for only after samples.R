@@ -145,7 +145,11 @@ ggplot() +
   geom_point(data = subset(DEres, log2FoldChange < -2 & padj < 0.05),
              aes(log2FoldChange, -log10(pvalue)), color = "red", size =4) +
   geom_point(data = subset(DEres, log2FoldChange > 2 & padj < 0.05),
-             aes(log2FoldChange, -log10(pvalue)), color = "green3", size =4) #+
+             aes(log2FoldChange, -log10(pvalue)), color = "green3", size =4)+
+  theme_bw()
+  
+
+#+
   #geom_text(data = subset(DEres, abs(log2FoldChange) > 2 & padj < 0.05),
         #  aes(log2FoldChange, -log10(pvalue)), label = rownames(subset(DEres, abs(log2FoldChange) > 2 & padj < 0.05)), vjust =1)
 
