@@ -19,6 +19,7 @@ library(vegan)
 library(reshape2)
 library(pairwiseAdonis)
 
+
 #create a phyloseq object for taxonomy
 otu_table <- read.csv(file = "Counts just bact archea_new cases.csv", row.names = 1)
 otu_matrix <- read.csv(file = "taxa bact and archea cleaned.csv", row.names = 1)
