@@ -21,7 +21,7 @@ grouping_colors <- c("Donor" = "blue",
 group_labels = c("Donors","Failures, post-FMT", "Failures, pre-FMT", "Responders, post-FMT", "Responders, pre-FMT")
 
 positions <- c( "Donor","Responders, post-FMT","Responders, pre-FMT","Non-responders, post-FMT", "Non-responders, pre-FMT")
-positions_names <- c( "Donor","Responders\npost-FMT","Responders\npre-FMT","Failures\npost-FMT", "Failures\npre-FMT")
+positions_names <- c( "Donors","Responders\npost-FMT","Responders\npre-FMT","Failures\npost-FMT", "Failures\npre-FMT")
 
 ggplot(data=df,aes(x=Group,y=Distance_to_centroid,colour=groups)) +
         #geom_point(alpha=0.5) + 
@@ -36,5 +36,9 @@ ggplot(data=df,aes(x=Group,y=Distance_to_centroid,colour=groups)) +
         theme(strip.background = element_blank(), strip.text.x = element_blank(), legend.position = "none")
 
 
-pairwise.adonis(dist,factors=groups, p.adjust.m='fdr', perm = 100000)
 
+permutest(bd, permutations = 999)
+anova(bd)
+plot(bd)
+boxplot(bd)
+plot(TukeyHSD(bd))

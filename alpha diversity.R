@@ -25,7 +25,8 @@ p + geom_point(size=2, alpha=0.7) +
         aes(x = reorder(Case.number, sort(as.numeric(sample.number)))) +
         facet_grid(~ Outcome_n, scales = "free", labeller = name_labeller, switch="both") +
         xlab("Case") +
-        scale_color_manual(values = c("Donor" = "blue", "Post-FMT" = "green3", "Pre-FMT" = "red"))+
+        scale_color_manual(values = c("Donor" = "blue", "Post-FMT" = "green3", "Pre-FMT" = "red"),
+                           labels = c("Donors", "Post-FMT", "Pre-FMT"))+
         theme_bw() +
         theme(axis.text.x = element_text(angle = 0, hjust = 0.5, size = 6))
 

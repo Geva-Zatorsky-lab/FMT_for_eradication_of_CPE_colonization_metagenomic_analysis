@@ -17,7 +17,7 @@ library(stringr)
 library(ggrepel)
 library(vegan)
 library(reshape2)
-library(pairwiseAdonis)
+
 
 
 #create a phyloseq object for taxonomy

@@ -22,7 +22,7 @@ top_Family <- df %>%
 top_Family
 
 positions <- c( "Donor","Responders, post-FMT","Responders, pre-FMT","Non-responders, post-FMT", "Non-responders, pre-FMT")
-positions_names <- c( "Donor","Responders\npost-FMT","Responders\npre-FMT","Failures\npost-FMT", "Failures\npre-FMT")
+positions_names <- c( "Donors","Responders\npost-FMT","Responders\npre-FMT","Failures\npost-FMT", "Failures\npre-FMT")
 
 #takes top 10 taxa from the original filtered data frame, and plots
 top10 <- top_Family$Family[1:32]
